@@ -1,0 +1,22 @@
+
+:root{
+    --main-bg: #fafafa;
+    --circle: hsl(240, 2%, 65%);
+    --main-type:  #25273C;
+    --input-bg: #fff;
+
+}
+body{
+    background-image: url('../images/bg-desktop-light.jpg');
+    background-color: var(--main-bg);
+}
+.todo-item .bullet{
+    border: 1px solid #dfdfdf;
+}
+.todos{
+    box-shadow: 2px 2px 50px #acacac;
+    border-radius: 5px;
+}
+.todo-item  .cross:hover{
+    background-color: #e4e4e4;
+}

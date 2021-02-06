@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Todo app</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link class= "styler" rel="stylesheet" href="css/dark.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    .attribution { font-size: 11px; text-align: center; color: gray;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <script src="https://raw.githack.com/SortableJS/Sortable/master/Sortable.js"></script>
+</head>
+<body>
+  <div class="todo">
+    <header>
+      <span>todo</span>
+      <img class="vision"src="images/icon-sun.svg" alt="">
+    </header>
+
+    <div class="the-input">
+      <input type="text" placeholder="type today todos then enter to add">
+    </div>
+
+    <div class="todos">
+
+      <div class="items-container">
+        <div class="todo-item completed">
+          <div class="bullet"> <img src="images/icon-check.svg" alt=""></div>
+          <span>Complete online javascript</span>
+          <img class="cross" src="images/icon-cross.svg" alt="">
+        </div>
+        <div class="todo-item incomplete">
+          <div class="bullet"> <img src="images/icon-check.svg" alt=""></div>
+          <span>10 minute meditation</span>
+          <img class="cross" src="images/icon-cross.svg" alt="">
+        </div>
+        <div class="todo-item incomplete">
+          <div class="bullet"> <img src="images/icon-check.svg" alt=""></div>
+          <span>Jag around the park 3x</span>
+          <img class="cross" src="images/icon-cross.svg" alt="">
+        </div>
+        <div class="todo-item incomplete">
+          <div class="bullet"> <img src="images/icon-check.svg" alt=""></div>
+          <span>Read for 1 hour</span>
+          <img class="cross" src="images/icon-cross.svg" alt="">
+        </div>
+        <div class="todo-item incomplete">
+          <div class="bullet"> <img src="images/icon-check.svg" alt=""></div>
+          <span>Drag Me to the TOOOP</span>
+          <img class="cross" src="images/icon-cross.svg" alt="">
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="items-left">
+          <span>5</span> items left
+        </div>
+        <div class="selection">
+          <span>All</span><span>Active</span><span>Completed</span>
+        </div>
+        <div class="clear-complete">
+          Clear Completed
+        </div>
+      </div>
+
+    </div>
+
+    <footer>Drag and drop to reorder list</footer>
+
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/hessinSai" target="_blank">Houssin</a>.
+  </div>
+  <script src="code.js"></script>
+  
+</body>
+</html>

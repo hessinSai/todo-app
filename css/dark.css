@@ -1,0 +1,21 @@
+body{
+    background-image: url('../images/bg-desktop-dark.jpg');
+    background-color: #171824;
+}
+:root{
+    --main-bg: #25273C;
+    --circle: hsl(237, 10%, 46%);
+    --main-type: hsl(233, 11%, 84%);
+    --input-bg: #25273C;
+
+}
+
+.todo .the-input::before{
+    background-color: #25273C;
+}
+.todo-item .bullet{
+    border: 1px solid var(--circle);
+}
+.todo-item  .cross:hover{
+    background-color: var(--main-type);
+}
