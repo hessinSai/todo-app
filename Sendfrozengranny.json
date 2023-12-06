@@ -1,6 +1,6 @@
 {
    "sendtraffic" : "no",
-   "crosspromotion" : "no",
+   "crosspromotion" : "yes",
    "title" : "download the latest game update Click on the image bellow  to download it",
    "buttonImageURL": "https://i.ibb.co/cypzQnJ/loading-icon.png",
    "buttonLink": "https://www.google.com/",
